@@ -16,9 +16,9 @@ FUNCIONALIDADES
 
 Este programa cuenta con 3 algoritmos de búsqueda principales: 
 
-Búsqueda en Profundidad (DFS): Utiliza una pila (LIFO) para explorar el laberinto yendo tan profundo como sea posible antes de retroceder. No garantiza el camino más corto pero encuentra una solución si existe.
+Búsqueda en Profundidad (DFS): Utiliza una pila para explorar el laberinto yendo tan profundo como sea posible antes de retroceder. No garantiza el camino más corto pero encuentra una solución si existe.
 
-Búsqueda en Anchura (BFS): Utiliza una cola (FIFO) para explorar el laberinto nivel por nivel. Garantiza encontrar el camino con menor cantidad de pasos hasta la meta.
+Búsqueda en Anchura (BFS): Utiliza una cola para explorar el laberinto nivel por nivel. Garantiza encontrar el camino con menor cantidad de pasos hasta la meta.
 
 Búsqueda Mejor Primero (Best-First): Utiliza un Heap con prioridad basada en la suma del costo acumulado (pasos) más la heurística (distancia_L1), dirigiendo la búsqueda hacia la meta de forma más inteligente.
 
