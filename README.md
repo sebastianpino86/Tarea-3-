@@ -11,6 +11,7 @@ Este sistema fue desarrollado en el lenguaje C y puede ejecutarse usando Visual 
 FUNCIONALIDADES
 
 Este programa cuenta con 3 algoritmos de búsqueda principales: 
+
 Búsqueda en Profundidad (DFS): Utiliza una pila (LIFO) para explorar el laberinto yendo tan profundo como sea posible antes de retroceder. No garantiza el camino más corto pero encuentra una solución si existe.
 
 Búsqueda en Anchura (BFS): Utiliza una cola (FIFO) para explorar el laberinto nivel por nivel. Garantiza encontrar el camino con menor cantidad de pasos hasta la meta.
@@ -20,7 +21,11 @@ Búsqueda Mejor Primero (Best-First): Utiliza un Heap con prioridad basada en la
 EJEMPLO DE USO 
 
 El usuario ejecuta el programa e ingresa la dificultad del laberinto, por ejemplo 90 para un 90% de obstáculos. El programa genera el laberinto aleatoriamente y muestra el estado inicial con la posición del agente A, el inicio I y la meta M.
+
 El usuario selecciona la opción 1 para ejecutar DFS. El programa encuentra un camino y muestra el laberinto con el recorrido marcado con +, junto al número de pasos realizados.
+
 El usuario selecciona la opción 2 para ejecutar BFS. El programa encuentra el camino más corto y lo muestra marcado con +.
+
 El usuario selecciona la opción 3 para ejecutar Best-First. El programa usa la distancia Manhattan como heurística para guiar la búsqueda y muestra el camino encontrado.
+
 El usuario selecciona la opción 4 para salir. El programa finaliza su ejecución.
